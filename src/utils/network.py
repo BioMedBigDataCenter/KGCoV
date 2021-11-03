@@ -1,8 +1,4 @@
-import rootpath
-rootpath.append()
-
-from src.utils.step import console_list
-from src.utils.tqdm import tqdm
+from tqdm import tqdm
 import socket
 from sys import exit
 from typing import Any, Dict, List, Tuple, Union
